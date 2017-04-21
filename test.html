@@ -25,19 +25,19 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url("one.JPG");
+    background-image: url('one.jpg');
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("four.JPG");
+    background-image: url("four.jpg");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("five.JPG");
+    background-image: url("five.jpg");
     min-height: 400px;
 }
 
@@ -56,11 +56,8 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button"><img src="misa copy.png"></a>
-
+    
+    <a href="#home" class="w3-bar-item w3-button"><img src="misa copy.png" class="w3-bar-item w3-button"></a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -72,7 +69,7 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">DANI <span class="w3-hide-small">for</span> eServices</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">DANI for eServices</span>
   </div>
 </div>
 
@@ -155,56 +152,110 @@ body, html {
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <div class="w3-center">
+    <img src="misa.png" width="10%" height="10%" class="w3-opacity">
+  </div>
   <h2 class="w3-center">MEMBER DEVELOPMENT</h3>
-  <p class="w3-center"><em>Strong Members make a Strong Organization</em></p>   <br>This year, I plan to focus on helping our members grow by expanding their skills while keeping the sense of home that we all know so well. I feel that the image of eServices has been straying away from what it should be, a place where one can improve their skills and have the opportunity to apply them.</br>
+  <p class="w3-center"><em>Strong Members make a Strong Organization</em></p><b><br>This year, I plan to focus on helping our members grow by expanding their skills while keeping the sense of home that we all know so well. I feel that the image of eServices has been straying away from what it should be, a place where one can improve their skills and have the opportunity to apply them.</br></b>
 
-<!-- Regular Member Consultations -->
-<div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <h4 class="w3-center">REGULAR MEMBER CONSULTATIONS</h4>
-      <i class="fa fa-group" style="font-size:160px;"></i>
-    </div>
+
+<!-- Large screen -->
+<div class="w3-hide-small">
+  <!-- Regular Member Consultations -->
+  <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <h4 class="w3-center">REGULAR MEMBER CONSULTATIONS</h4>
+        <i class="fa fa-group" style="font-size:160px;"></i>
+      </div>
+      <div class="w3-col m6 w3-padding-large">
+        <p><br>Teams that work on projects are usually left by themselves to finish their work and are occasionally checked up on for progress. Regular member consultations allow for a better flow of communication. Members can express their opinions and suggestions on their project, the organization or anything under the sun. This helps the cluster know if ever they might need any help or a break, and it also aids in the production of quality work.</br></p>
+      </div>
+  </div>
+
+  <!-- Tutorials -->
+  <div class="w3-row">
+      <div class="w3-col m6 w3-padding-large">
+        <p><br>Currently, tutorials help the members brush up on their coding skills to aid in their academic classes. As an organization, we should strive to further improving these skills and learn more outside of the curriculum. Tutorials should give others the opportunity to expand their current skillset and refine those that they already have. While we continue the current tutorials, we will be adding more topics and, rather than just the basics, also teach advanced topics to give them an idea on how it can be applied as well as the potential it has.</br></p>
+      </div>
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <div class="center">
+            <h4 class="w3-center">TUTORIALS</h4>
+            <i class="material-icons" style="font-size:160px;">assignment</i>
+          </div>
+      </div>
+  </div>
+
+  <!-- Recognition -->
+  <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <h4 class="w3-center">RECOGNITION</h4>
+        <i class="fa fa-trophy" style="font-size:160px;"></i>
+      </div>
+      <div class="w3-col m6 w3-padding-large">
+        <p><br>The teams that work on projects deserve acknowledgment for their contribution to the organization as well as some exposure. While this aims to show the appreciation of the organization to its valuable members, it also aims to showcase their works in the hopes of showing others of what they can also do. This could also invite opinions on improvement from their fellow members</p><br>
+      </div>
+  </div>
+
+  <!-- Dev Cut -->
+  <div class="w3-row">
     <div class="w3-col m6 w3-padding-large">
-      <p><b>Teams that work on projects are usually left by themselves to finish their work and are occasionally checked up on for progress. Regular member consultations allow for a better flow of communication. Members can express their opinions and suggestions on their project, the organization or anything under the sun. This helps the cluster know if ever they might need any help or a break, and it also aids in the production of quality work.</b></p><br>
-    </div>
+        <p>In relation to the opportunity to apply their skills, this also includes working for actual clients and rewards. Teams earn for the work they do, however, it is not enough to keep them motivated. They deserve more for their contribution for the organization.</p><br>
+      </div>
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <h4 class="w3-center">DEV CUT</h4>
+        <i class="material-icons" style="font-size:160px;">monetization_on</i>
+      </div>
+  </div>
 </div>
 
-<!-- Tutorials -->
-<div class="w3-row">
-    <div class="w3-col m6 w3-padding-large">
-      <p><b>Currently, tutorials help the members brush up on their coding skills to aid in their academic classes. As an organization, we should strive to further improving these skills and learn more outside of the curriculum. Tutorials should give others the opportunity to expand their current skillset and refine those that they already have. While we continue the current tutorials, we will be adding more topics and, rather than just the basics, also teach advanced topics to give them an idea on how it can be applied as well as the potential it has.</b></p><br>
-    </div>
+<!-- Small screen -->
+<div class="w3-hide-large w3-hide-medium">
+  <!-- Regular Member Consultations -->
+  <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <h4 class="w3-center">REGULAR MEMBER CONSULTATIONS</h4>
+        <i class="fa fa-group" style="font-size:160px;"></i>
+      </div>
+      <div class="w3-col m6 w3-padding-large">
+        <p><br>Teams that work on projects are usually left by themselves to finish their work and are occasionally checked up on for progress. Regular member consultations allow for a better flow of communication. Members can express their opinions and suggestions on their project, the organization or anything under the sun. This helps the cluster know if ever they might need any help or a break, and it also aids in the production of quality work.</br></p>
+      </div>
+  </div>
+
+  <!-- Tutorials -->
+  <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <div class="center">
-          <h4 class="w3-center">TUTORIALS</h4>
-          <i class="material-icons" style="font-size:160px;">assignment</i>
-        </div>
-    </div>
-</div>
-
-<!-- Recognition -->
-<div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <h4 class="w3-center">RECOGNITION</h4>
-      <i class="fa fa-trophy" style="font-size:160px;"></i>
+            <h4 class="w3-center">TUTORIALS</h4>
+            <i class="material-icons" style="font-size:160px;">assignment</i>
+      </div>
     </div>
     <div class="w3-col m6 w3-padding-large">
-      <p><b>The teams that work on projects deserve acknowledgment for their contribution to the organization as well as some exposure. While this aims to show the appreciation of the organization to its valuable members, it also aims to showcase their works in the hopes of showing others of what they can also do. This could also invite opinions on improvement from their fellow members</b></p><br>
-    </div>
-</div>
+        <p><br>Currently, tutorials help the members brush up on their coding skills to aid in their academic classes. As an organization, we should strive to further improving these skills and learn more outside of the curriculum. Tutorials should give others the opportunity to expand their current skillset and refine those that they already have. While we continue the current tutorials, we will be adding more topics and, rather than just the basics, also teach advanced topics to give them an idea on how it can be applied as well as the potential it has.</br></p>
+    </div>   
+  </div>
 
-<!-- Dev Cut -->
-<div class="w3-row">
-  <div class="w3-col m6 w3-padding-large">
-      <p><b>In relation to the opportunity to apply their skills, this also includes working for actual clients and rewards. Teams earn for the work they do, however, it is not enough to keep them motivated. They deserve more for their contribution for the organization.</b></p><br>
-    </div>
+  <!-- Recognition -->
+  <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <h4 class="w3-center">RECOGNITION</h4>
+        <i class="fa fa-trophy" style="font-size:160px;"></i>
+      </div>
+      <div class="w3-col m6 w3-padding-large">
+        <p><br>The teams that work on projects deserve acknowledgment for their contribution to the organization as well as some exposure. While this aims to show the appreciation of the organization to its valuable members, it also aims to showcase their works in the hopes of showing others of what they can also do. This could also invite opinions on improvement from their fellow members</p><br>
+      </div>
+  </div>
+
+  <!-- Dev Cut -->
+  <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <h4 class="w3-center">DEV CUT</h4>
-      <i class="material-icons" style="font-size:160px;">monetization_on</i>
-    </div>
+        <h4 class="w3-center">DEV CUT</h4>
+        <i class="material-icons" style="font-size:160px;">monetization_on</i>
+      </div>
+    <div class="w3-col m6 w3-padding-large">
+        <p>In relation to the opportunity to apply their skills, this also includes working for actual clients and rewards. Teams earn for the work they do, however, it is not enough to keep them motivated. They deserve more for their contribution for the organization.</p><br>
+    </div>  
+  </div>
 </div>
-
-
 
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
